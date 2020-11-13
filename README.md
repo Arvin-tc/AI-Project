@@ -3,7 +3,7 @@ AI MCTS checker project.
 
 
 ## Project setup
-In PyCharm, select Check out from version control and copy from HTTPS: https://github.com/Arvin-tc/AI-Project.git
+In PyCharm, select "Check Out From Version Control" and copy from HTTPS: https://github.com/Arvin-tc/AI-Project.git
 
 ### Add new changes into the repository 
 ```

@@ -3,6 +3,7 @@ from random import randint
 from BoardClasses import Move
 from BoardClasses import Board
 #The following part should be completed by students.
+<<<<<<< HEAD
 #Students can modify anything except the class name and exisiting functions and varibl
 
 
@@ -19,6 +20,11 @@ class Node():
         self.color = color
 
     # add a calculate function to calculate the win rate
+=======
+#Students can modify anything except the class name and exisiting functions and varibles.
+#git_test
+class StudentAI():
+>>>>>>> f0e13ba757e80af7111e18bf625a82efae6c1350
 
 class StudentAI():
     def __init__(self,col,row,p):
