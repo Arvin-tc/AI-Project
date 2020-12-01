@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8fdede5-aaa0-48c5-a417-190032ed68cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Checkers_Student.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Checkers_Student.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkers-python/StudentAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkers-python/StudentAI.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="1513c3f3-e753-4ed0-b70d-8d90118b3cd9" />
+  <component name="ProjectId" id="1kLBVk197xfusE2j1UJpjjZKoX7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tools/AI_Runner.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.AganistOther">
+    <configuration name="AI_Runner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Checkers_Student" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/AI_Runner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AganistOther" type="PythonConfigurationType" factoryName="Python">
+      <module name="Checkers_Student" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://tiancl10@openlab.ics.uci.edu:22/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/AI_Runner.py" />
+      <option name="PARAMETERS" value="7 7 2 l  &quot;/tmp/pycharm_project_761/Tools/Sample_AIs/Random_AI/main.py&quot; &quot;/tmp/pycharm_project_761/src/checkers-cpp/main.cpp&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="submission" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Checkers_Student" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools/submission.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.AganistOther" />
+      <item itemvalue="Python.AI_Runner" />
+      <item itemvalue="Python.submission" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.submission" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8fdede5-aaa0-48c5-a417-190032ed68cc" name="Default Changelist" comment="" />
+      <created>1605470016166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605470016166</updated>
+      <workItem from="1605470017240" duration="234000" />
+      <workItem from="1605470563469" duration="1379000" />
+      <workItem from="1606531712520" duration="3204000" />
+      <workItem from="1606534952905" duration="3249000" />
+      <workItem from="1606810699221" duration="1057000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1750" y="297" key="#Options" timestamp="1606811151774">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1750" y="297" key="#Options/0.0.3440.1400@0.0.3440.1400" timestamp="1606811151774" />
+    <state x="1790" y="209" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606811572198">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1790" y="209" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1606811572198" />
+    <state x="906" y="358" key="FileChooserDialogImpl" timestamp="1606532299025">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="906" y="358" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1606532299025" />
+    <state width="835" height="403" key="GridCell.Tab.0.bottom" timestamp="1606811766033">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="835" height="403" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1606811766033" />
+    <state width="835" height="403" key="GridCell.Tab.0.center" timestamp="1606811766033">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="835" height="403" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1606811766033" />
+    <state width="835" height="403" key="GridCell.Tab.0.left" timestamp="1606811766032">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="835" height="403" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1606811766032" />
+    <state width="835" height="403" key="GridCell.Tab.0.right" timestamp="1606811766033">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="835" height="403" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1606811766033" />
+    <state x="1221" y="344" key="SettingsEditor" timestamp="1605470574422">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1221" y="344" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1605470574422" />
+    <state x="1600" y="429" key="ftp.server.browser" timestamp="1605470148192">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1600" y="429" key="ftp.server.browser/0.0.3440.1400@0.0.3440.1400" timestamp="1605470148192" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Checkers_Student$AI_Runner.coverage" NAME="AI_Runner Coverage Results" MODIFIED="1606531811644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/Checkers_Student$AganistOther.coverage" NAME="AganistOther Coverage Results" MODIFIED="1606811553078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+    <SUITE FILE_PATH="coverage/Checkers_Student$submission.coverage" NAME="submission Coverage Results" MODIFIED="1605471438844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tools" />
+  </component>
+</project>

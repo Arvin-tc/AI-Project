@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="tiancl10@openlab.ics.uci.edu:22" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg;*.hprof;" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="tiancl10@openlab.ics.uci.edu:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_761" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
