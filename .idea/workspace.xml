@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46e0801-d374-4bdf-b3a5-935740eac354" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Student Checker/src/checkers-python/StudentAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Student Checker/src/checkers-python/StudentAI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/New AI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/New AI.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606812809398</updated>
       <workItem from="1606812810477" duration="2441000" />
+      <workItem from="1606819743624" duration="183000" />
     </task>
     <servers />
   </component>

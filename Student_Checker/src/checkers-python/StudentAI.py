@@ -1,7 +1,9 @@
 import copy
+import math
 from random import randint
 from BoardClasses import Move
 from BoardClasses import Board
+
 #The following part should be completed by students.
 #<<<<<<< HEAD
 #Students can modify anything except the class name and exisiting functions and varibl
@@ -18,6 +20,21 @@ class Node():
         self.children = []
         self.parent = parents
         self.color = color
+
+    def WinRate(self):
+        return self.WinNumber/self.PassNumber
+
+    def UCT (self):
+        FinalChild= self.children[0]
+        for child1 in self.children:
+            UCT1 = (self.WinNumber/child1.PassNumber)+math.sqrt(math.log10(self.PassNumber)/child1.PassNumber)
+            for child2 in self.children:
+                UCT2=(self.WinNumber/child1.PassNumber)+math.sqrt(math.log10(self.PassNumber)/child1.PassNumber)
+                if UCT2>UCT1:
+                    FinalChild= child2
+        return FinalChild
+
+
 
     # add a calculate function to calculate the win rate
 #=======
@@ -61,7 +78,10 @@ class StudentAI():
             for node in ansList:
                 if (node.WinNumber/node.PassNumber) > (ans.WinNumber/ans.PassNumber):
                     ans=node
+                #ans=node.UCT
             return ans.move
+
+
         else:
             SB = copy.deepcopy(self.board)
             Pmoves=SB.get_all_possible_moves(self.color)
@@ -96,12 +116,20 @@ class StudentAI():
                 present_list = []
                 for ans in ansList:
                     present_list.append(ans)
-                present_node = None
+                #present_node = None
+                present_node=Node(SB.get_all_possible_moves(self.color), self.color)
+                present_node.children=present_list
+                for child in present_list:
+                    RootPass=child.PassNumber
+                    RootWin=child.WinNumber
+                present_node.PassNumber=RootPass
+                present_node.WinNumber=RootWin
                 present_color = self.color
                 mother_node = None
                 while (len(present_list)!=0):
                     mother_node = present_node
-                    present_node= present_list[randint(0, len(present_list)-1)]
+                    #present_node= present_list[randint(0, len(present_list)-1)]
+                    present_node=mother_node.UCT()
                     present_list= present_node.children
                     SB.make_move(present_node.move, present_color)
                     present_color = self.opponent[present_color]
@@ -129,5 +157,4 @@ class StudentAI():
                         new_Node.parent.WinNumber+=1
                         new_Node=new_Node.parent
                 return self.RecursionMove(counter + 1, ansList)
-
 
